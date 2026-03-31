@@ -21,7 +21,7 @@ The objective is detect, analyze, and document the attack as a SOC analyst would
 \
 *TOOLS USED TO ATTACK SIMULATION*\
 Hydra (Comand executed):\
-hydra -l testuser -P passwords.txt rdp://192.168.1.20\
+hydra -V -l testuser -P passwords.txt rdp://192.168.56.104\
 \
 \
 *LOGS ANALYSIS*\
